@@ -29,7 +29,7 @@ Pbkdf2::createSalt()
 ```
 
 ```
-Pbkdf2::createHash('test',$salt)
+Pbkdf2::createHash('password',$salt)
 ```
 
 For changing the configuration:
