@@ -1,0 +1,22 @@
+{
+    "name": "vjroby/laravel-pbkdf2",
+    "description": "",
+    "authors": [
+        {
+            "name": "Robert Gabriel Dinu",
+            "email": "eu@robertgabriel.ro"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Vjroby\\LaravelPbkdf2\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
