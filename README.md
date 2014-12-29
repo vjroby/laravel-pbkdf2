@@ -31,3 +31,9 @@ Pbkdf2::createSalt()
 ```
 Pbkdf2::createHash('test',$salt)
 ```
+
+For changing the configuration:
+
+```
+php artisan config:publish vjroby/laravel-pbkdf2
+```
