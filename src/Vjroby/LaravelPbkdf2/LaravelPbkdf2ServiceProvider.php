@@ -30,7 +30,10 @@ class LaravelPbkdf2ServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		$this->app->bind('vjroby-laravel-pbkdf2', function($app){
+			$config = $app['config']->get('vjroby-laravel-pbkdf2::pbkdf2-config');
+			return new Pbkdf2($config);
+		});
 	}
 
 	/**

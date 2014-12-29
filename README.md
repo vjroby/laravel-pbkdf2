@@ -1,5 +1,5 @@
 #PBKDF2 package for Laravel 4#
 
-#Installing instructions#
+##Installing instructions##
 
 ...to come.
