@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/vjroby/laravel-pbkdf2.svg?branch=master)](https://travis-ci.org/vjroby/laravel-pbkdf2)
 #PBKDF2 package for Laravel 4#
 
 ##Installing instructions##
