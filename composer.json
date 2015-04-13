@@ -1,10 +1,15 @@
 {
     "name": "vjroby/laravel-pbkdf2",
-    "description": "",
+    "description": "This is a package for wrapping PBKDF2 class and using it in Laravel as a facade",
+    "keywords": [
+        "laravel","pbkdf2","hashing"
+    ],
     "authors": [
         {
             "name": "Robert Gabriel Dinu",
-            "email": "eu@robertgabriel.ro"
+            "email": "eu@robertgabriel.ro",
+            "homepage":"http://robertgabriel.ro",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -18,5 +23,6 @@
             "Vjroby\\LaravelPbkdf2\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "license": "MIT"
 }
