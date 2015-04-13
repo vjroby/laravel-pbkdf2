@@ -2,6 +2,12 @@
 
 ##Installing instructions##
 
+Install using composer:
+
+```
+"vjroby/laravel-pbkdf2": "0.2.0"
+```
+
 Put a new service provider:
 
 ```
